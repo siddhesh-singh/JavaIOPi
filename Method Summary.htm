@@ -1,0 +1,1666 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:0in;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{mso-style-link:"Header Char";
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{mso-style-link:"Footer Char";
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+span.HeaderChar
+	{mso-style-name:"Header Char";
+	mso-style-link:Header;}
+span.FooterChar
+	{mso-style-name:"Footer Char";
+	mso-style-link:Footer;}
+.MsoChpDefault
+	{font-family:"Calibri",sans-serif;}
+.MsoPapDefault
+	{margin-bottom:8.0pt;
+	line-height:107%;}
+ /* Page Definitions */
+ @page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+</style>
+
+</head>
+
+<body lang=EN-US>
+
+<div class=WordSection1>
+
+<p class=MsoNormal><span style='font-family:"Arial",sans-serif'>Method Summary</span></p>
+
+<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none'>
+ <tr>
+  <td width=638 colspan=2 valign=top style='width:6.65in;border:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>public class
+  PiInfoObj</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=127 valign=top style='width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>Modifier and
+  Type</span></p>
+  </td>
+  <td width=511 valign=top style='width:383.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>Method and
+  Description</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=127 valign=top style='width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>int</span></p>
+  </td>
+  <td width=511 valign=top style='width:383.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>index()</span></p>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>Returns the
+  index in Weaved.</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=127 valign=top style='width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>String</span></p>
+  </td>
+  <td width=511 valign=top style='width:383.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>alias()</span></p>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>Returns the
+  alias of the device.</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=127 valign=top style='width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>String</span></p>
+  </td>
+  <td width=511 valign=top style='width:383.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>address()</span></p>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>Returns the
+  device’s address.</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=127 valign=top style='width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>String</span></p>
+  </td>
+  <td width=511 valign=top style='width:383.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>owner ()</span></p>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>Returns the
+  name of the owner of the device.</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=127 valign=top style='width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>int</span></p>
+  </td>
+  <td width=511 valign=top style='width:383.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>pins()</span></p>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>Returns the
+  number of pins.</span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><span style='font-family:"Arial",sans-serif'>&nbsp;</span></p>
+
+<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none'>
+ <tr>
+  <td width=638 colspan=2 valign=top style='width:6.65in;border:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>public class
+  PinInfoObj</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=127 valign=top style='width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>Modifier and
+  Type</span></p>
+  </td>
+  <td width=511 valign=top style='width:383.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>Method and
+  Description</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=127 valign=top style='width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>int</span></p>
+  </td>
+  <td width=511 valign=top style='width:383.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>number()</span></p>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>Returns the
+  pin’s number.</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=127 valign=top style='width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>String</span></p>
+  </td>
+  <td width=511 valign=top style='width:383.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>name ()</span></p>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>Returns the
+  name of the pin.</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=127 valign=top style='width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>boolean       </span></p>
+  </td>
+  <td width=511 valign=top style='width:383.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>function()</span></p>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>Returns the state
+  of the pin’s function.</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=127 valign=top style='width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>boolean</span></p>
+  </td>
+  <td width=511 valign=top style='width:383.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>state ()</span></p>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>Returns the
+  state of the pin itself.</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=127 valign=top style='width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>String</span></p>
+  </td>
+  <td width=511 valign=top style='width:383.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>highLabel ()</span></p>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>Returns the
+  label of the pin’s high state.</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=127 valign=top style='width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>String</span></p>
+  </td>
+  <td width=511 valign=top style='width:383.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>lowLabel()</span></p>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>Returns the
+  label of the pin’s low state.</span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><span style='font-family:"Arial",sans-serif'>&nbsp;</span></p>
+
+<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none'>
+ <tr>
+  <td width=638 colspan=2 valign=top style='width:6.65in;border:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>public class
+  pipin</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=127 valign=top style='width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>Modifier and
+  Type</span></p>
+  </td>
+  <td width=511 valign=top style='width:383.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>Method and
+  Description</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=127 valign=top style='width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>boolean</span></p>
+  </td>
+  <td width=511 valign=top style='width:383.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>getFunction
+  ()</span></p>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>Returns the
+  state of the pin’s function.</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=127 valign=top style='width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>int</span></p>
+  </td>
+  <td width=511 valign=top style='width:383.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>getNumber ()</span></p>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>Returns the
+  number of the pin.</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=127 valign=top style='width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>String          </span></p>
+  </td>
+  <td width=511 valign=top style='width:383.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>getName()</span></p>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>Returns the
+  name of the pin.</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=127 valign=top style='width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>boolean</span></p>
+  </td>
+  <td width=511 valign=top style='width:383.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>getState ()</span></p>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>Returns the
+  state of the pin.</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=127 valign=top style='width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>String</span></p>
+  </td>
+  <td width=511 valign=top style='width:383.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>getHighLabel
+  ()</span></p>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>Returns the
+  label of the pin’s high state.</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=127 valign=top style='width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>String</span></p>
+  </td>
+  <td width=511 valign=top style='width:383.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>getLowLabel
+  ()</span></p>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>Returns the
+  label of the pin’s low state.</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=127 valign=top style='width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>boolean</span></p>
+  </td>
+  <td width=511 valign=top style='width:383.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>setFunction(boolean
+  gf)</span></p>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>Set the
+  function of the pin.</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=127 valign=top style='width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>int</span></p>
+  </td>
+  <td width=511 valign=top style='width:383.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>setNumber(int
+  i)</span></p>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>Set the
+  number of the pin to <b>i</b>.</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=127 valign=top style='width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>String</span></p>
+  </td>
+  <td width=511 valign=top style='width:383.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>setName(String
+  sn)</span></p>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>Set the name
+  of the pin to <b>sn</b>.</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=127 valign=top style='width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>boolean</span></p>
+  </td>
+  <td width=511 valign=top style='width:383.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>setState(boolean
+  hl)</span></p>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>Set the state
+  of the pin to <b>hl</b>.</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=127 valign=top style='width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>String</span></p>
+  </td>
+  <td width=511 valign=top style='width:383.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>setHighLabel(String
+  hl)</span></p>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>Set the label
+  of the pin’s high state to <b>hl</b>.</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=127 valign=top style='width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>String</span></p>
+  </td>
+  <td width=511 valign=top style='width:383.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>setLowLabel(String
+  ll) </span></p>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>Set the label
+  of the pin’s low state to <b>ll</b>.</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=127 valign=top style='width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>String</span></p>
+  </td>
+  <td width=511 valign=top style='width:383.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>toString()</span></p>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>Returns a
+  string consisting of number, function, name, state, high label, and low label.</span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><span style='font-family:"Arial",sans-serif'>&nbsp;</span></p>
+
+<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none'>
+ <tr>
+  <td width=638 colspan=2 valign=top style='width:6.65in;border:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>public class
+  rasppi</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=127 valign=top style='width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>Modifier and
+  Type</span></p>
+  </td>
+  <td width=511 valign=top style='width:383.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>Method and
+  Description</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=127 valign=top style='width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>boolean</span></p>
+  </td>
+  <td width=511 valign=top style='width:383.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>setCreds(String
+  usr, String psw)</span></p>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>Set
+  credentials which will be used for HTTP requests.</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=127 valign=top style='width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>String</span></p>
+  </td>
+  <td width=511 valign=top style='width:383.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>setProxy(String
+  URL)</span></p>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>Specificy the
+  proxy’s URL.</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=127 valign=top style='width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>String</span></p>
+  </td>
+  <td width=511 valign=top style='width:383.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>getAlias()</span></p>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>Return the
+  alias of the device.</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=127 valign=top style='width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>String</span></p>
+  </td>
+  <td width=511 valign=top style='width:383.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>getAddress()</span></p>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>Return the
+  address of the device.</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=127 valign=top style='width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>String</span></p>
+  </td>
+  <td width=511 valign=top style='width:383.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>getOwner()</span></p>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>Return the
+  name of the owner of the device.</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=127 valign=top style='width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>String</span></p>
+  </td>
+  <td width=511 valign=top style='width:383.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>getProxy()</span></p>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>Return the
+  proxy of the device.</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=127 valign=top style='width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>String</span></p>
+  </td>
+  <td width=511 valign=top style='width:383.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>getSize()</span></p>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>Return the
+  size of the GPIO.</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=127 valign=top style='width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>String</span></p>
+  </td>
+  <td width=511 valign=top style='width:383.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>setAlias(String
+  al)</span></p>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>Set the
+  device’s alias to <b>al</b>.</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=127 valign=top style='width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>String</span></p>
+  </td>
+  <td width=511 valign=top style='width:383.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>setAddress(String
+  add)</span></p>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>Set the
+  device’s address to <b>add</b>.</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=127 valign=top style='width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>String</span></p>
+  </td>
+  <td width=511 valign=top style='width:383.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>setOwner(String
+  own)</span></p>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>Set the
+  device’s owner to <b>own</b>.</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=127 valign=top style='width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>String</span></p>
+  </td>
+  <td width=511 valign=top style='width:383.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>APIRequests(String
+  request_param, boolean isGET)</span></p>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>A helper
+  method for the REST API.</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=127 valign=top style='width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>String</span></p>
+  </td>
+  <td width=511 valign=top style='width:383.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>GetGPIOState()</span></p>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>Get the
+  complete GPIO state of pi stored at piIndex in JSON format.</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=127 valign=top style='width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>boolean</span></p>
+  </td>
+  <td width=511 valign=top style='width:383.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>GetGPIOfunction(int
+  pin)</span></p>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>Get the
+  function of the the specific pin from the Pi.</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=127 valign=top style='width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>boolean</span></p>
+  </td>
+  <td width=511 valign=top style='width:383.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>GetGPIOvalue(int
+  pin)</span></p>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>Get the value
+  of the the specific pin from the Pi.</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=127 valign=top style='width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>String</span></p>
+  </td>
+  <td width=511 valign=top style='width:383.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>SetGPIOfunction(int
+  pin, boolean fun)</span></p>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>Set the
+  function of the the specific pin from the Pi.</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=127 valign=top style='width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>String</span></p>
+  </td>
+  <td width=511 valign=top style='width:383.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>SetGPIOvalue(int
+  pin, boolean val)</span></p>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>Set the value
+  of the the specific pin from the Pi.</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=127 valign=top style='width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>void</span></p>
+  </td>
+  <td width=511 valign=top style='width:383.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>createGPIO()</span></p>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>Create the
+  GPIO array.</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=127 valign=top style='width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>void</span></p>
+  </td>
+  <td width=511 valign=top style='width:383.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>trimGPIO()</span></p>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>Call
+  TrimToSize() on GPIO.</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=127 valign=top style='width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>pipin</span></p>
+  </td>
+  <td width=511 valign=top style='width:383.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>getPin(int
+  index)</span></p>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>Returns the
+  pin at <b>index</b>.</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=127 valign=top style='width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>pipin</span></p>
+  </td>
+  <td width=511 valign=top style='width:383.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>getPinDeep(int
+  pinNumber)</span></p>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>Returns pin
+  with specified pin number.</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=127 valign=top style='width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>boolean</span></p>
+  </td>
+  <td width=511 valign=top style='width:383.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>getPinFunction(int
+  index, boolean deep)</span></p>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>Getter
+  methods to access pin getter methods.</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=127 valign=top style='width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>int</span></p>
+  </td>
+  <td width=511 valign=top style='width:383.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>getPinNumber(int
+  index, boolean deep)</span></p>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>Returns the
+  pin number.</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=127 valign=top style='width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>String</span></p>
+  </td>
+  <td width=511 valign=top style='width:383.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>getPinName(int
+  index, boolean deep)</span></p>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>Returns the
+  name of the pin.</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=127 valign=top style='width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>String</span></p>
+  </td>
+  <td width=511 valign=top style='width:383.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>getPinHighLabel(int
+  index, boolean deep)</span></p>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>Returns the
+  pin’s high label.</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=127 valign=top style='width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>String</span></p>
+  </td>
+  <td width=511 valign=top style='width:383.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>getPinLowLabel(int
+  index, boolean deep)</span></p>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>Returns the
+  pin’s low label.</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=127 valign=top style='width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>ArrayList&lt;Integer&gt;</span></p>
+  </td>
+  <td width=511 valign=top style='width:383.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>validPinNumbers()</span></p>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>Returns the
+  list of valid pin numbers.</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=127 valign=top style='width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>String</span></p>
+  </td>
+  <td width=511 valign=top style='width:383.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>setPinName(int
+  index, String newname, boolean deep)</span></p>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>Set the name
+  of the pin to <b>newname</b>.</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=127 valign=top style='width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>String</span></p>
+  </td>
+  <td width=511 valign=top style='width:383.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>setPinHighLabel(int
+  index, String newlab, boolean deep)</span></p>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>Set the high label
+  of the pin to <b>newlab</b>.</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=127 valign=top style='width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>String</span></p>
+  </td>
+  <td width=511 valign=top style='width:383.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>setPinLowLabel(int
+  index, String newlab, boolean deep)</span></p>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>Set the low
+  label of the pin to <b>newlab</b>.</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=127 valign=top style='width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>void</span></p>
+  </td>
+  <td width=511 valign=top style='width:383.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>addPin(int
+  pin_number, boolean pin_function, String pin_name, boolean pin_state, String
+  pin_high_label, String pin_low_label)</span></p>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>Add a new pin
+  to the GPIO.</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=127 valign=top style='width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>void</span></p>
+  </td>
+  <td width=511 valign=top style='width:383.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>addPin(int
+  pin_number, boolean pin_function, boolean pin_state)</span></p>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>Add a new pin
+  to the GPIO.</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=127 valign=top style='width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>void</span></p>
+  </td>
+  <td width=511 valign=top style='width:383.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>setup(boolean
+  saved, String param)</span></p>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>Set up the
+  GPIO.</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=127 valign=top style='width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>void</span></p>
+  </td>
+  <td width=511 valign=top style='width:383.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>setup_saved(String
+  param)</span></p>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>Set up an old
+  configuration for this pi's GPIO, if available.</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=127 valign=top style='width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>void</span></p>
+  </td>
+  <td width=511 valign=top style='width:383.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>setup_new()</span></p>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>Set up a new
+  GPIO from the current state.</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=127 valign=top style='width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>void</span></p>
+  </td>
+  <td width=511 valign=top style='width:383.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>update()</span></p>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>Update the
+  GPIO.</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=127 valign=top style='width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>String</span></p>
+  </td>
+  <td width=511 valign=top style='width:383.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>GPIOparse(String
+  gpioraw, int pin, String field)</span></p>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>Parse the
+  GPIO.</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=127 valign=top style='width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>ArrayList&lt;PinInfoObj&gt;</span></p>
+  </td>
+  <td width=511 valign=top style='width:383.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>getPinInfoArray()</span></p>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>Get
+  information of pins (number, name, function, state, high label, low label)</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=127 valign=top style='width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>String</span></p>
+  </td>
+  <td width=511 valign=top style='width:383.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>exportPinJSON(int
+  index, boolean deep)</span></p>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>Returns the
+  pin at <b>index</b>.</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=127 valign=top style='width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>String</span></p>
+  </td>
+  <td width=511 valign=top style='width:383.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>toString()</span></p>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>Returns a
+  string of the device’s alias, owner, address, and GPIO pins.</span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><span style='font-family:"Arial",sans-serif'>&nbsp;</span></p>
+
+<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none'>
+ <tr>
+  <td width=638 colspan=2 valign=top style='width:6.65in;border:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>public class
+  weavedapi</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=127 valign=top style='width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>Modifier and
+  Type</span></p>
+  </td>
+  <td width=511 valign=top style='width:383.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>Method and
+  Description</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=127 valign=top style='width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>String</span></p>
+  </td>
+  <td width=511 valign=top style='width:383.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>getToken()</span></p>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>Get the token
+  ID.</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=127 valign=top style='width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>void</span></p>
+  </td>
+  <td width=511 valign=top style='width:383.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>setToken(String
+  t)</span></p>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>Set the token
+  ID to <b>t</b>.</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=127 valign=top style='width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>boolean</span></p>
+  </td>
+  <td width=511 valign=top style='width:383.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>login(String
+  usr, String psw)</span></p>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>Log in to
+  Weaved using username <b>usr</b> and password <b>psw</b>.</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=127 valign=top style='width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>String</span></p>
+  </td>
+  <td width=511 valign=top style='width:383.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>connect(String
+  deviceaddress)</span></p>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>Connect to <b>deviceaddress</b>.</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=127 valign=top style='width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>void</span></p>
+  </td>
+  <td width=511 valign=top style='width:383.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>newPiList()</span></p>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>Create a new
+  list of Pis.</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=127 valign=top style='width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>void</span></p>
+  </td>
+  <td width=511 valign=top style='width:383.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>addPi(String
+  deval, String devadd, String devown) </span></p>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>Add a new Pi
+  to the list of Pis.</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=127 valign=top style='width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>void</span></p>
+  </td>
+  <td width=511 valign=top style='width:383.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>setup(boolean
+  saved) </span></p>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>Set up the
+  GPIO.</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=127 valign=top style='width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>void</span></p>
+  </td>
+  <td width=511 valign=top style='width:383.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>setup_saved()</span></p>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>Set up an old
+  configuration for this pi's GPIO, if available.</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=127 valign=top style='width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>void</span></p>
+  </td>
+  <td width=511 valign=top style='width:383.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>setup_new()</span></p>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>Set up a new
+  GPIO from the current state.</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=127 valign=top style='width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>void</span></p>
+  </td>
+  <td width=511 valign=top style='width:383.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>updatePi(int
+  index)</span></p>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>Update the
+  Pi.</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=127 valign=top style='width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>int</span></p>
+  </td>
+  <td width=511 valign=top style='width:383.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>getPiListSize()</span></p>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>Get the size
+  of the list of Pis.</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=127 valign=top style='width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>rasppi</span></p>
+  </td>
+  <td width=511 valign=top style='width:383.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>getPi(int i)</span></p>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>Get the Pi at
+  index <b>i</b> from piList.</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=127 valign=top style='width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>void</span></p>
+  </td>
+  <td width=511 valign=top style='width:383.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>setPiCreds(int
+  index,String usr, String psw)</span></p>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>Set the Pi’s
+  credentials (username <b>usr</b> and password <b>psw</b>).</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=127 valign=top style='width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>void</span></p>
+  </td>
+  <td width=511 valign=top style='width:383.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>genPiProxy(int
+  index)</span></p>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>Set the Pi’s
+  proxy.</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=127 valign=top style='width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>void</span></p>
+  </td>
+  <td width=511 valign=top style='width:383.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>setupPi(int
+  index, boolean saved, String param)</span></p>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>Set up the
+  Pi.</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=127 valign=top style='width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>String</span></p>
+  </td>
+  <td width=511 valign=top style='width:383.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>listAll()</span></p>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>Return a
+  string of the contents of the URL in string API_LIST_ALL.</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=127 valign=top style='width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>String</span></p>
+  </td>
+  <td width=511 valign=top style='width:383.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>basicParse(String
+  rawin, String field)</span></p>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>Parse using JSONParser().</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=127 valign=top style='width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>String</span></p>
+  </td>
+  <td width=511 valign=top style='width:383.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>deviceParse(String
+  devraw, int devindex, String field)</span></p>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>Parse the
+  device using JSONParser().</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=127 valign=top style='width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>String</span></p>
+  </td>
+  <td width=511 valign=top style='width:383.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>proxyParse(String
+  rawcon)</span></p>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>Parse the
+  proxy address using JSONParser().</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=127 valign=top style='width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>String</span></p>
+  </td>
+  <td width=511 valign=top style='width:383.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>getPiAlias(int
+  index)</span></p>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>Get the Pi’s
+  Alias.</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=127 valign=top style='width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>String</span></p>
+  </td>
+  <td width=511 valign=top style='width:383.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>getPiAddress(int
+  index)</span></p>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>Get the Pi’s
+  address.</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=127 valign=top style='width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>String</span></p>
+  </td>
+  <td width=511 valign=top style='width:383.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>getPiOwner(int
+  index)</span></p>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>Get the Pi’s
+  owner.</span></p>
+  </td>
+ </tr>
+ <tr style='height:12.1pt'>
+  <td width=127 valign=top style='width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt;height:12.1pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>int</span></p>
+  </td>
+  <td width=511 valign=top style='width:383.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt;height:12.1pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>getPiSize(int
+  index)</span></p>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>Get the size
+  of the Pi.</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=127 valign=top style='width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>int</span></p>
+  </td>
+  <td width=511 valign=top style='width:383.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>getPiPinNumber(int
+  index, int pin)</span></p>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>Get the
+  specified pin’s number.</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=127 valign=top style='width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>String</span></p>
+  </td>
+  <td width=511 valign=top style='width:383.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>getPiPinName(int
+  index, int pin)</span></p>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>Get the
+  specified pin’s name.</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=127 valign=top style='width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>String</span></p>
+  </td>
+  <td width=511 valign=top style='width:383.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>getPiPinHighLabel(int
+  index, int pin) </span></p>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>Returns the
+  label of the specified pin’s high state.</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=127 valign=top style='width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>String</span></p>
+  </td>
+  <td width=511 valign=top style='width:383.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>getPiPinLowLabel(int
+  index, int pin) </span></p>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>Returns the
+  label of the specified pin’s low state.</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=127 valign=top style='width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>String</span></p>
+  </td>
+  <td width=511 valign=top style='width:383.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>setPiPinName(int
+  index, int pin, String newname)</span></p>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>Set the
+  specified pin’s name to <b>newname</b>.</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=127 valign=top style='width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>String</span></p>
+  </td>
+  <td width=511 valign=top style='width:383.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>setPiPinHighLabel(int
+  index, int pin, String newname)</span></p>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>Set the
+  specified pin’s high label to <b>newname</b>.</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=127 valign=top style='width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>String</span></p>
+  </td>
+  <td width=511 valign=top style='width:383.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>setPiPinLowLabel(int
+  index, int pin, String newname)</span></p>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>Set the
+  specified pin’s low label to <b>newname</b>.</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=127 valign=top style='width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>ArrayList&lt;Integer&gt;</span></p>
+  </td>
+  <td width=511 valign=top style='width:383.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>validPiPinNumbers(int
+  index)</span></p>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>Get an array
+  of valid pin numbers for specified pi.</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=127 valign=top style='width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>String</span></p>
+  </td>
+  <td width=511 valign=top style='width:383.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>GetPiGPIOState(int
+  piIndex, boolean update)</span></p>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>Get the
+  complete GPIO state of pi stored at <b>piIndex</b> in JSON format.</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=127 valign=top style='width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>boolean</span></p>
+  </td>
+  <td width=511 valign=top style='width:383.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>GetPiGPIOPinFunction(int
+  piIndex, int pinNumber, boolean update)</span></p>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>Get the
+  function of the the specific pin (<b>pinNumber</b>) from the Pi at index <b>piIndex</b>.</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=127 valign=top style='width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>boolean</span></p>
+  </td>
+  <td width=511 valign=top style='width:383.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>GetPiGPIOPinValue(int
+  piIndex, int pinNumber, boolean update)</span></p>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>Get the value
+  of the the specific pin (<b>pinNumber</b>) from the Pi at index <b>piIndex</b>.</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=127 valign=top style='width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>String</span></p>
+  </td>
+  <td width=511 valign=top style='width:383.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>SetPiGPIOPinFunction(int
+  piIndex, int pinNumber, boolean fun, boolean update)</span></p>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>Set the
+  function of the the specific pin (<b>pinNumber</b>) from the Pi at index <b>piIndex</b>.</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=127 valign=top style='width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>String</span></p>
+  </td>
+  <td width=511 valign=top style='width:383.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>SetPiGPIOPinValue(int
+  piIndex, int pinNumber, boolean val, boolean update)</span></p>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>Set the value
+  of the the specific pin (<b>pinNumber</b>) from the Pi at index <b>piIndex</b>.</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=127 valign=top style='width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>boolean</span></p>
+  </td>
+  <td width=511 valign=top style='width:383.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>getPinHighBool()</span></p>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>Get which
+  boolean value represents HIGH input/output (true).</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=127 valign=top style='width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>boolean</span></p>
+  </td>
+  <td width=511 valign=top style='width:383.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>getPinLowBool()</span></p>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>Get which
+  boolean value represents LOW input/output (false).</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=127 valign=top style='width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>boolean</span></p>
+  </td>
+  <td width=511 valign=top style='width:383.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>getPinInBool()</span></p>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>Get which
+  boolean value represents IN (input pin) (true).</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=127 valign=top style='width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>boolean</span></p>
+  </td>
+  <td width=511 valign=top style='width:383.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>getPinOutBool()</span></p>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>Get which
+  boolean value represents OUT (output pin) (false).</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=127 valign=top style='width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>String</span></p>
+  </td>
+  <td width=511 valign=top style='width:383.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>exportPiJSON(int
+  index)</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=127 valign=top style='width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>String</span></p>
+  </td>
+  <td width=511 valign=top style='width:383.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>exportPiPinJSON(int
+  index, int pin)</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=127 valign=top style='width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>ArrayList&lt;PiInfoObj&gt;</span></p>
+  </td>
+  <td width=511 valign=top style='width:383.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>getPiPinInfoArray(int
+  piIndex)</span></p>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>Get
+  information of pins (number, name, function, state, high label, low label).</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=127 valign=top style='width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>ArrayList&lt;PiInfoObj&gt;</span></p>
+  </td>
+  <td width=511 valign=top style='width:383.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>getPiInfoArray()</span></p>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>Get array of
+  pi information (alias, address, owner, size)</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=127 valign=top style='width:95.4pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>void</span></p>
+  </td>
+  <td width=511 valign=top style='width:383.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>logout()</span></p>
+  <p class=MsoNormal><span style='font-family:"Arial",sans-serif'>Log the user
+  out of Weaved.</span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><span style='font-family:"Arial",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+</div>
+
+</body>
+
+</html>
