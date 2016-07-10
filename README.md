@@ -9,5 +9,5 @@ This API depends on the [WebIOPi software](http://webiopi.trouch.com) and servic
 
 ## Usage
 
-A comprehensive summary may be found (here)[https://siddhesh-singh.github.io/JavaIOPi/].
+A comprehensive summary may be found [here](https://siddhesh-singh.github.io/JavaIOPi/).
 A shorter and simpler explanation on how to use the API is available at the [wiki](https://github.com/siddhesh-singh/JavaIOPi/wiki).
